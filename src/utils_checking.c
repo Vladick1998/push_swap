@@ -6,10 +6,9 @@
 /*   By: oarnoldo <oarnoldo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 14:52:27 by oarnoldo          #+#    #+#             */
-/*   Updated: 2022/03/24 14:53:59 by oarnoldo         ###   ########.fr       */
+/*   Updated: 2022/03/24 14:54:18 by oarnoldo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "../push_swap.h"
 
@@ -20,6 +19,7 @@ int	ft_isdigit(int c)
 	else
 		return (1);
 }
+
 int	check_if_digit(char **list)
 {
 	int	i;
